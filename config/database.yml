@@ -49,6 +49,6 @@ test:
 #
 production:
   <<: *default
-  database: triplanner_production
-  username: triplanner
-  password: <%= ENV['TRIPLANNER_DATABASE_PASSWORD'] %>
+  database: 84b3becff39a878d163cc3c50b28e947
+  username: 84b3becff39a878d163cc3c50b28e947
+  password: pXnqq3i5%AE%
