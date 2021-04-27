@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Triplanner</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <section class="header">
+      <p class="title">運営用です。</p>
+      <%= link_to "Content TOP", content_top_path, :class => "manager-top" %>
+    </section>
+    <div class="" style="display: flex;">
+      <%= render partial: "layouts/manage_sidebar" %>
+      <div class="manage-container">
+        <%= yield %>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,330 @@
+[
+    {
+        "id": "1",
+        "name": "北海道",
+        "en": "hokkaido",
+        "region": "0"
+    },
+
+    {
+        "id": "2",
+        "name": "青森",
+        "en": "aomori",
+        "region": "1"
+    },
+
+    {
+        "id": "3",
+        "name": "秋田",
+        "en": "akita",
+        "region": "1"
+    },
+
+    {
+        "id": "4",
+        "name": "岩手",
+        "en": "iwate",
+        "region": "1"
+    },
+
+    {
+        "id": "5",
+        "name": "山形",
+        "en": "yamagata",
+        "region": "1"
+    },
+
+    {
+        "id": "6",
+        "name": "宮城",
+        "en": "miyagi",
+        "region": "1"
+    },
+
+    {
+        "id": "7",
+        "name": "福島",
+        "en": "fukushima",
+        "region": "1"
+    },
+
+    {
+        "id": "8",
+        "name": "群馬",
+        "en": "gunma",
+        "region": "2"
+    },
+
+    {
+        "id": "9",
+        "name": "栃木",
+        "en": "tochigi",
+        "region": "2"
+    },
+
+    {
+        "id": "10",
+        "name": "茨城",
+        "en": "ibaraki",
+        "region": "2"
+    },
+
+    {
+        "id": "11",
+        "name": "埼玉",
+        "en": "saitama",
+        "region": "2"
+    },
+
+    {
+        "id": "12",
+        "name": "千葉",
+        "en": "chiba",
+        "region": "2"
+    },
+
+    {
+        "id": "13",
+        "name": "東京",
+        "en": "tokyo",
+        "region": "2"
+    },
+
+    {
+        "id": "14",
+        "name": "神奈川",
+        "en": "kanagawa",
+        "region": "2"
+    },
+    
+    {
+        "id": "15",
+        "name": "新潟",
+        "en": "niigata",
+        "region": "3"
+    },
+
+    {
+        "id": "16",
+        "name": "富山",
+        "en": "toyama",
+        "region": "3"
+    },
+
+    {
+        "id": "17",
+        "name": "長野",
+        "en": "nagano",
+        "region": "3"
+    },
+
+    {
+        "id": "18",
+        "name": "山梨",
+        "en": "yamanashi",
+        "region": "3"
+    },
+
+    {
+        "id": "19",
+        "name": "石川",
+        "en": "ishikawa",
+        "region": "3"
+    },
+
+    {
+        "id": "20",
+        "name": "岐阜",
+        "en": "gifu",
+        "region": "3"
+    },
+
+    {
+        "id": "21",
+        "name": "愛知",
+        "en": "aichi",
+        "region": "3"
+    },
+
+    {
+        "id": "22",
+        "name": "静岡",
+        "en": "shizuoka",
+        "region": "3"
+    },
+
+    {
+        "id": "23",
+        "name": "福井",
+        "en": "fukui",
+        "region": "3"
+    },
+
+    {
+        "id": "24",
+        "name": "滋賀",
+        "en": "shiga",
+        "region": "4"
+    },
+
+    {
+        "id": "25",
+        "name": "三重",
+        "en": "mie",
+        "region": "4"
+    },
+
+    {
+        "id": "26",
+        "name": "京都",
+        "en": "kyoto",
+        "region": "4"
+    },
+
+    {
+        "id": "27",
+        "name": "大阪",
+        "en": "osaka",
+        "region": "4"
+    },
+
+    {
+        "id": "28",
+        "name": "奈良",
+        "en": "nara",
+        "region": "4"
+    },
+
+    {
+        "id": "29",
+        "name": "和歌山",
+        "en": "wakayama",
+        "region": "4"
+    },
+
+    {
+        "id": "30",
+        "name": "兵庫",
+        "en": "hyogo",
+        "region": "4"
+    },
+
+    {
+        "id": "31",
+        "name": "鳥取",
+        "en": "tottori",
+        "region": "5"
+    },
+
+    {
+        "id": "32",
+        "name": "岡山",
+        "en": "okayama",
+        "region": "5"
+    },
+
+    {
+        "id": "33",
+        "name": "島根",
+        "en": "shimane",
+        "region": "5"
+    },
+
+    {
+        "id": "34",
+        "name": "広島",
+        "en": "hiroshima",
+        "region": "5"
+    },
+
+    {
+        "id": "35",
+        "name": "山口",
+        "en": "yamaguchi",
+        "region": "5"
+    },
+
+    {
+        "id": "36",
+        "name": "香川",
+        "en": "kagawa",
+        "region": "6"
+    },
+
+    {
+        "id": "37",
+        "name": "徳島",
+        "en": "tokushima",
+        "region": "6"
+    },
+
+    {
+        "id": "38",
+        "name": "愛媛",
+        "en": "ehime",
+        "region": "6"
+    },
+
+    {
+        "id": "39",
+        "name": "高知",
+        "en": "kochi",
+        "region": "6"
+    },
+
+    {
+        "id": "40",
+        "name": "福岡",
+        "en": "fukuoka",
+        "region": "7"
+    },
+
+    {
+        "id": "41",
+        "name": "大分",
+        "en": "oita",
+        "region": "7"
+    },
+
+    {
+        "id": "42",
+        "name": "佐賀",
+        "en": "saga",
+        "region": "7"
+    },
+
+    {
+        "id": "43",
+        "name": "長崎",
+        "en": "nagasaki",
+        "region": "7"
+    },
+
+    {
+        "id": "44",
+        "name": "熊本",
+        "en": "kumamoto",
+        "region": "7"
+    },
+
+    {
+        "id": "45",
+        "name": "宮崎",
+        "en": "miyazaki",
+        "region": "7"
+    },
+
+    {
+        "id": "46",
+        "name": "鹿児島",
+        "en": "kagoshima",
+        "region": "7"
+    },
+
+    {
+        "id": "47",
+        "name": "沖縄",
+        "en": "okinawa",
+        "region": "8"
+    }
+]

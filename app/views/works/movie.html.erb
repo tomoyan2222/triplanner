@@ -1,0 +1,25 @@
+<div class="spot-movie manage">
+  <%= form_with model: @movie do |f| %>
+    <div class="form_field">
+      <%= f.label :region_num, "エリア" %>
+      <%= f.select :region_num, @str_param %>
+    </div>
+    <div class="form_field">
+      <%= f.label :code, "YouTube共有コード" %>
+      <%= f.text_area :code %>
+    </div>
+    <div class="form_field">
+      <%= f.submit "登録" %>
+    </div>
+  <% end %>
+
+  <% if @movie_data.any? %>
+    <h2>PR動画のあるエリア</h2>
+    <ul>
+      <% @movie_data.each do |movie| %>
+        <% region = @str_param.select {|k, v| v == movie.region_num.to_s } %>
+        <li><%= region.first[1] %>. <%= region.first[0] %></li>
+      <% end %>
+    </ul>
+  <% end %>
+</div>
