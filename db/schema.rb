@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_04_23_052019) do
+ActiveRecord::Schema.define(version: 2021_04_23_040037) do
 
   create_table "action_text_rich_texts", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.string "name", null: false
@@ -74,7 +74,16 @@ ActiveRecord::Schema.define(version: 2021_04_23_052019) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  create_table "thumbnails", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci", force: :cascade do |t|
+    t.string "file_name"
+    t.bigint "spot_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["spot_id"], name: "index_thumbnails_on_spot_id"
+  end
+
   add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"
   add_foreign_key "images", "spots"
   add_foreign_key "movies", "spots"
+  add_foreign_key "thumbnails", "spots"
 end
