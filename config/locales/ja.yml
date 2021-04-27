@@ -1,0 +1,18 @@
+ja:
+ activerecord:
+  attributes:
+   spot:
+     name: 'スポット名'
+     region_num: '都道府県'
+     thumbnail: 'サムネ'
+   image:
+     image: '画像'
+   movie:
+     code: 'コード'
+ views:
+  pagination:
+   first: "&laquo; 最初"
+   last: "最後 &raquo;"
+   previous: "&lsaquo; 前"
+   next: "次 &rsaquo;"
+   truncate: "..."

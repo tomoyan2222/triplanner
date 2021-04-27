@@ -1,0 +1,35 @@
+<%= render partial: "layouts/errors" %>
+
+<div class="spot-new manage">
+  <h2>スポット追加</h2>
+
+  <%= form_with url: works_spot_new_path, method: "post", local: true do |f| %>
+    <div class="form_field">
+      <%= f.label :name, "スポット名: " %>
+      <%= f.text_field :name %>
+    </div>
+    <div class="form_field">
+      <%= f.label :region_num, "都道府県: " %>
+      <%= f.select :region_num, @str_param %>
+    </div>
+    <div class="form_field">
+      <%= f.label :thumbnail, "サムネ: " %>
+      <%= f.file_field :thumbnail %>
+    </div>
+    <div class="form_field">
+      <%= f.label :image, "画像: " %>
+      <%= f.file_field :image %>
+    </div>
+    <div class="form_field">
+      <%= f.label :code, "YouTube動画: " %>
+      <%= f.text_area :code %>
+    </div>
+    <div class="form_field">
+      <%= f.label :content, "本文" %>
+      <%= f.rich_text_area :content %>
+      </div>
+    <div class="form_field">
+      <%= f.submit "登録" %>
+    </div>
+  <% end %>
+</div>

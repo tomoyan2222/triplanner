@@ -1,0 +1,49 @@
+<div class="spot-list manage">
+  <h2>スポットリスト</h2>
+  <% if @spot_list.any? %>
+    <table>
+      <thead>
+        <th>スポット名</th>
+        <td class="table-thumb">サムネ</td>
+        <td>都道府県</td>
+        <td>映像</td>
+        <td>画像枚数</td>
+        <td>削除</td>
+      </thead>
+      <% @spot_list.each do |spot| %>
+        <tr>
+          <th><%= link_to spot.name, works_spot_single_path(spot.id) %></th>
+          <td>
+            <% if spot.thumbnail.present? %>
+              <%= image_tag "/spot_thumbnail/#{spot.thumbnail}", :size=> "100x100" %>
+            <% else %>
+              無
+            <% end %>
+          </td>
+          <td>
+            <% region = @str_param.select {|k, v| v == spot.region_num.to_s} %>
+            <%= region.first[0] %>
+          </td>
+          <td>
+            <% if Movie.exists?(spot_id: spot.id) %>
+            有
+            <% else %>
+            無
+            <% end %>
+          </td>
+          <td>
+            <%= Image.where(spot_id: spot.id).count %>
+          </td>
+          <td>
+            <%= link_to works_spot_destroy_path(spot.id) do %>
+              <button>削除</button>
+            <% end %>
+          </td>
+
+        </tr>
+      <% end %>
+    </table>
+    <div class="paging">
+      <%= paginate @spot_list %>
+    </div>
+<% end %>
