@@ -52,3 +52,4 @@ production:
   database: 84b3becff39a878d163cc3c50b28e947
   username: 84b3becff39a878d163cc3c50b28e947
   password: pXnqq3i5%AE%
+  host: mysql-2.mc.lolipop.lan
