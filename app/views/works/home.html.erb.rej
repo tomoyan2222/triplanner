@@ -1,0 +1,12 @@
+diff a/app/views/works/home.html.erb b/app/views/works/home.html.erb	(rejected hunks)
+@@ -3,4 +3,7 @@
+ <h2>HOME</h2>
+ <p>今後メモ兼チャット機能を追加予定です。</p>
+ 
+-/* comments */
+\ No newline at end of file
++/* 
++    comments
++    comments
++*/
+\ No newline at end of file
